@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.info-container {
+  height: 180px;
+  border-bottom: 1px solid #bebebe;
+  .idea-img {
+    position: absolute;
+    width: 116px;
+    top: 76px;
+    opacity: 0.6;
+  }
+  .product-name {
+    display: flex;
+    justify-content: flex-start;
+    color: #636363;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-family: "Neucha", cursive;
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  .product-slogan,
+  .product-description {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+    padding: 0 8px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  .product-description{
+    padding-top: 8px;
+  }
+  .author-name {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #a30036;
+    padding: 8px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  .social-sites {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 38px;
+    margin-left: 8px;
+    img {
+      width: 32px;
+      margin: 3px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.blog-container {
+  .blog-right-content {
+    display: flex;
+    .blog-wrapper {
+      width: 74%;
+      margin-top: 48px;
+    }
+    .blog-filter-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 24%;
+      margin-top: 58px;
+      position: fixed;
+      right: -20px;  
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.blog-editor-container{
+    height: calc(100% - 48px);   
+    .blog-editor-content{
+        margin-top: 42px;
+        height: 100%;
+        display: flex;
+    }
+}

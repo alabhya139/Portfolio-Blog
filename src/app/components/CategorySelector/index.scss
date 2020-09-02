@@ -1,0 +1,23 @@
+.category-filter-component{
+    width: 46%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border: 2px solid rgb(149, 149, 149);
+    justify-content: space-between;
+    border-radius: 4px;
+    color: #535353;
+    margin: 8px;
+    padding: 3px 12px;
+    cursor: pointer;
+    .category-filter-cross{
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .category-filter-cross:hover{
+        transform: scale(1.2);
+    }
+}

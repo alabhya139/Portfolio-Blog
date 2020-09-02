@@ -1,0 +1,37 @@
+.page-background{
+    background: url('../../../assets/images/landing_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-title{
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    font-size: 46px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.get-started-btn{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    height: 46px;
+    background: #281936;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 29px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 9px #dadada;
+    cursor: pointer;
+}
+
+.get-started-btn:hover{
+    box-shadow: 0px 1px 9px #afafaf;
+}

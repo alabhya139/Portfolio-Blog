@@ -1,0 +1,21 @@
+.icon-button{
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .button-icon{
+        img{
+            width: 20px;
+        }
+        .scale-animation:hover{
+            opacity: 0.6;
+            transform: scale(1.14);
+        }
+    }
+    .button-value{
+        font-size: 12px;
+        margin: 4px;
+        color: rgb(100, 100, 100);
+        font-weight: bold;
+    }
+}

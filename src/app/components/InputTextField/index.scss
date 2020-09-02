@@ -1,0 +1,20 @@
+.input-text-field-component{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 92%;
+    .input-text-field-label{
+        padding: 0 0 4px 0;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .input-text-field{
+        border: 0;
+        outline: 0;
+        border: 1px solid #cccccc;
+        width: 98%;
+        height: 28px;
+        padding: 4px;
+        border-radius: 4px;
+    }
+}
