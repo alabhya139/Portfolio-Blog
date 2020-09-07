@@ -1,16 +1,12 @@
 import { call, put } from 'redux-saga/effects';
-import { takeEvery, select } from 'redux-saga/effects';
+import { takeEvery } from 'redux-saga/effects';
 import * as dataAccess from '../../utils/fetch.api';
-import history from '../../router/history';
 import {
-    GET_SHIPS_LIST,
-    GET_SHIPS_DETAILS
-} from '../actions/actionTypes';
+    GET_SHIPS_LIST
+} from '../actions/action.types';
 import {
     getShipsListSuccess,
-    getShipsListError,
-    getShipsDetailSuccess,
-    getShipsDetailError
+    getShipsListError
 } from '../actions/ships.action';
 import { constants } from '../../utils/constants';
 

@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import {getCapsuleList} from '../../redux/actions/capsule.action';
-
 import './index.scss';
 import Header from '../../components/RightContainer/Header';
 
@@ -27,14 +25,12 @@ class Dashboard extends Component {
     }
 }
 const mapStateToProps = (state) => {
-    console.log(state)
     return {
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
     return bindActionCreators({
-        getCapsuleList
     },dispatch);
 };
 

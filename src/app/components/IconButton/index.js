@@ -13,7 +13,8 @@ const IconButton = (props) => {
                 <img
                     className={animated ? `scale-animation` : ''}
                     style={width && { width: `${width}px` }}
-                    src={iconSrc}>
+                    src={iconSrc}
+                    alt="button-icon">
                 </img>
             </div>
             <div style={valueStyle} className="button-value">

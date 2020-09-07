@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
-import UiReducer from './ui.reducer';
-import Capsules from './capsule.reducer';
+import UiReducer from '../reducers/ships.reducer';
+
+
 
 const rootReducer = combineReducers({
-    UiReducer,
-    Capsules
+    UiReducer
 });
 
 export default rootReducer;

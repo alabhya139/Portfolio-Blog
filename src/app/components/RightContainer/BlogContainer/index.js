@@ -29,7 +29,7 @@ const BlogContainer = (props) => {
             <div className="blog-card-header">
                 <div className="left-section">
                     <div className="blog-header-icon">
-                        <img src={BLOG_FEED}></img>
+                        <img src={BLOG_FEED} alt="blog-feed-icon"></img>
                     </div>
                     <div className="blog-title">
                         Some Random Blog Title Just For Preview

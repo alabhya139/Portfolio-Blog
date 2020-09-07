@@ -36,5 +36,8 @@
       font-size: 13px;
       color: rgb(70, 70, 70);
     }
+    .filter-list-item:hover{
+      transform: scale(1.05);
+    }
   }
 }

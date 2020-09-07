@@ -17,7 +17,7 @@ function ListItem(props) {
             {
                 icon &&
                 <div className="list-item-icon">
-                    <img src={iconSrc}></img>
+                    <img src={iconSrc} alt="list-item-icon"></img>
                 </div>
             }
 
